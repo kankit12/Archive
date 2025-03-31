@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Sith Archives</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div id="entry-screen" class="entry">
+        <h1>Access the Archives</h1>
+        <input type="password" id="password" placeholder="Enter the code...">
+        <button onclick="checkPassword()">Submit</button>
+        <p id="error-message" class="hidden">Access Denied.</p>
+    </div>
+    
+    <div id="main-content" class="hidden">
+        <header>
+            <h1 class="sith-title">The Sith Archives</h1>
+        </header>
+        <section class="entry-section">Your journey begins...</section>
+        <section class="log-section">Personal logs and thoughts...</section>
+        <section class="timeline-section">Life milestones...</section>
+    </div>
+</body>
+</html>
